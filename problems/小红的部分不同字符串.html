@@ -32,12 +32,12 @@ p{margin:0;color:#444;}
 
 <section>
     <h4>3. 关键思考</h4>
-    <p>并查集建图，相邻不同颜色的着色问题</p>
+    <p>并查集建图，各联通块处理着色问题；注意一共n个点n条边，所以全部联通块成基环形式，拓扑排序找树枝，剩下的就是环，然后ksm计数</p>
 </section>
 
 <section>
     <h4>4. 如何实现</h4>
-    <p>略</p>
+    <p>新奇的点在于对每个块做拓扑排序可以找出非环点，因为环上的点无法被push进去</p>
 </section>
 
 <section>
@@ -45,6 +45,7 @@ p{margin:0;color:#444;}
     <span class="tag">并查集</span>
     <span class="tag">着色计数</span>
     <span class="tag">缩点思想</span>
+    <span class="tag">拓扑排序找非环点</span>
 </section>
 
 <section>
