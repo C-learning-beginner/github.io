@@ -1,9 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的题库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+            font-family: "Microsoft Yahei", sans-serif;
+            line-height: 1.8;
+        }
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #409eff;
+        }
+        .problem-list {
+            list-style: none;
+        }
+        .problem-item {
+            background: #f8f9fa;
+            margin: 12px 0;
+            padding: 15px 20px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .problem-item:hover {
+            background: #eef3f8;
+        }
+        .problem-item a {
+            color: #409eff;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        .problem-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
+    <h1> 我的题库</h1>
+    <ul class="problem-list">
+        <li class="problem-item">
+            <a href="problems/小红的部分不同字符串.html">小红的部分不同字符串</a>
+        </li>
+      
 
-<h1>我的题目仓库</h1>
-<p>正常显示</p>
-
+    </ul>
 </body>
 </html>
